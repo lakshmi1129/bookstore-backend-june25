@@ -216,9 +216,9 @@ exports.makePaymentController= async (req,res)=>{
             // make payment
             mode:"payment",
             // if payment success- url to shown
-            success_url:"http://localhost:5173/payment-success",
+            success_url:"https://bookstore-june25.netlify.app/payment-success",
             // if payment failed- url to shown
-            cancel_url:"http://localhost:5173/payment-error"
+            cancel_url:"https://bookstore-june25.netlify.app/payment-error"
             });
             console.log(session);
 
